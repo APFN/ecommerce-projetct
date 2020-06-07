@@ -32,7 +32,7 @@
 
 #Ipython Notebook
 # .ipynb_checkpoints
-# db.sqlite3
+db.sqlite3
 
 
-local_settings.py
+#local_settings.py
