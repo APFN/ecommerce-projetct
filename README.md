@@ -1,2 +1,2 @@
 # djangoecommerce
-Projeto udemy  e-commerce   
+Projeto udemy  e-commerce   lala
