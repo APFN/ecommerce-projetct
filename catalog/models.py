@@ -11,6 +11,10 @@ class Category(models.Model):
         verbose_name_plural = 'Categories'
         ordering = ['name']
 
+    def __str__(self):
+        return self.name
+
+
 class Products(models.Model):
     name= models.CharField('Name', max_length=100)
     slug = models.SlugField('Identifier', max_length=100)
@@ -25,3 +29,6 @@ class Products(models.Model):
         verbose_name = 'Product'
         verbose_name_plural = 'Products'
         ordering = ['name']
+    
+    def __str__(self):
+        return self.name
