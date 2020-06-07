@@ -1,2 +1,2 @@
 # djangoecommerce
-Projeto do DrinkApp e-commerce
+Projeto do e-commerce
