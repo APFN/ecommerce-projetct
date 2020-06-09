@@ -35,4 +35,4 @@ pip-delete-this-directory.txt
 db.sqlite3
 
 
-#local_settings.py
+local_settings.py
