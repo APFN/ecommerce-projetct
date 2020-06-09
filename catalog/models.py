@@ -4,6 +4,7 @@ from django.urls import reverse
 class Category(models.Model):
     name= models.CharField('Name', max_length=100)
     slug = models.SlugField('Identifier', max_length=100)
+    
     created = models.DateTimeField('Created in', auto_now_add=True)
     modified = models.DateTimeField('Modified in', auto_now=True)
     
@@ -37,4 +38,6 @@ class Products(models.Model):
     def __str__(self):
         return self.name
 
+    def get_absolute_url(self):
+        return reverse('catalog:product', kwargs={'slug': self.slug})
    
