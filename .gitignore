@@ -34,5 +34,4 @@ pip-delete-this-directory.txt
 .ipynb_checkpoints
 db.sqlite3
 
-
 local_settings.py
